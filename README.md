@@ -1,1 +1,1 @@
-# calendar_app
+# calendar-app
