@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-week-day',
   templateUrl: './week-day.component.html',
-  styleUrls: ['./week-day.component.scss']
+  styleUrls: ['./week-day.component.scss'],
 })
 export class WeekDayComponent implements OnInit {
+  @Input() date: string;
+  @Input() events: string;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

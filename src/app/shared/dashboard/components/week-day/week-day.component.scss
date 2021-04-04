@@ -1,0 +1,23 @@
+.day-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 80px;
+
+  .date-container {
+    border: solid 1px gray;
+    border-radius: 10px;
+    width: 10%;
+  }
+
+  .events-container {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px gray;
+    border-radius: 10px;
+    width: 90%;
+
+    .event {
+        cursor: pointer;
+    }
+  }
+}

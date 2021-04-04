@@ -1,6 +1,6 @@
 export const WEEK_DATA = [
   {
-    day: 'LUNES 15',
+    date: 'LUNES 15',
     events: [
       {
         meeting_type: '1',
@@ -35,7 +35,7 @@ export const WEEK_DATA = [
     ],
   },
   {
-    day: 'MARTES 16',
+    date: 'MARTES 16',
     events: [
       {
         meeting_type: '4',
@@ -60,7 +60,7 @@ export const WEEK_DATA = [
     ],
   },
   {
-    day: 'MIÉRCOLES 17',
+    date: 'MIÉRCOLES 17',
     events: [
       {
         meeting_type: '2',
@@ -85,7 +85,7 @@ export const WEEK_DATA = [
     ],
   },
   {
-    day: 'JUEVES 18',
+    date: 'JUEVES 18',
     events: [
       {
         meeting_type: '5',
@@ -110,7 +110,7 @@ export const WEEK_DATA = [
     ],
   },
   {
-    day: 'VIERNES 19',
+    date: 'VIERNES 19',
     events: [
       {
         meeting_type: '4',
@@ -135,11 +135,11 @@ export const WEEK_DATA = [
     ],
   },
   {
-    day: 'SÁBADO 20',
+    date: 'SÁBADO 20',
     events: [],
   },
   {
-    day: 'DOMINGO 21',
+    date: 'DOMINGO 21',
     events: [
       {
         meeting_type: '1',

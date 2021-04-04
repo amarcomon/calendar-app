@@ -1,1 +1,13 @@
-<p>week-day works!</p>
+<div class="day-container">
+    <div class="date-container">
+        {{date}}
+    </div>
+    <div class="events-container">
+        <div *ngFor="let event of events">
+            <div class="event">
+               <p>{{event.title}}</p> 
+               <p>{{event.subtitle}}</p> 
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component';
-import { ComponentsModule } from '../components/components.module';
+import { ComponentsModule } from '../shared/components.module';
 
 
 

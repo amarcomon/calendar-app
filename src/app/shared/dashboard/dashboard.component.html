@@ -1,3 +1,3 @@
 <div *ngFor="let day of week">
-  <app-week-day></app-week-day>
+  <app-week-day [date]="day.date" [events]="day.events"></app-week-day>
 </div>
