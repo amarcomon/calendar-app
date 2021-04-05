@@ -16,7 +16,11 @@ $border_color: lightgray;
     padding: 10px;
     margin: 5px;
     font-weight: 700;
-    color: darkgrey
+    color: darkgrey;
+
+    p {
+      margin: 0;
+    }
   }
 
   .events-container {

@@ -1,4 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {
+  MatDialog,
+  MatDialogRef,
+} from '@angular/material/dialog';
 
 import { WeekDayComponent } from './week-day.component';
 
@@ -8,9 +12,12 @@ describe('WeekDayComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ WeekDayComponent ]
-    })
-    .compileComponents();
+      declarations: [WeekDayComponent],
+      providers: [
+        { provide: MatDialogRef, useValue: {} },
+        { provide: MatDialog, useValue: {} },
+      ],
+    }).compileComponents();
   });
 
   beforeEach(() => {
