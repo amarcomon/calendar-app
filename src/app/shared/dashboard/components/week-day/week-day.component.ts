@@ -11,6 +11,13 @@ export class WeekDayComponent implements OnInit {
   @Input() date: string;
   @Input() events: string;
 
+  private readonly BACKGROUND_COLOR = {
+    1 : 'lightpink',
+    2 : 'lightsteelblue',
+    3 : 'mediumseagreen',
+    4 : 'mediumturquoise',
+    5 : 'sandybrown'
+  }
   constructor(private matDialog: MatDialog) {}
 
   ngOnInit(): void {}
@@ -25,5 +32,9 @@ export class WeekDayComponent implements OnInit {
     dialogConfig.data = event;
 
     this.matDialog.open(ModalComponent, dialogConfig);
+  }
+
+  setBackgroundColor(event) {
+    return this.BACKGROUND_COLOR[event.meeting_type]
   }
 }
