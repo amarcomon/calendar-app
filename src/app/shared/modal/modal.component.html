@@ -1,1 +1,7 @@
-<p>modal works!</p>
+<div class="modal-container" [ngStyle]="{'background-color': setBackgroundColor()}">
+  <div class="modal-title">
+    <h1 class="title">{{ data.content.title }}</h1>
+    <span class="close" (click)="closeModal()">X</span>
+  </div>
+  <p class="modal-content">{{ data.content.description }}</p>
+</div>

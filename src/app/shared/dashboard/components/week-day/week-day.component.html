@@ -4,7 +4,7 @@
     </div>
     <div class="events-container">
         <div *ngFor="let event of events">
-            <div class="event">
+            <div id="dayEvent" class="event" (click)="openModal(event)">
                <p>{{event.title}}</p> 
                <p>{{event.subtitle}}</p> 
             </div>
