@@ -9,6 +9,7 @@ import { WEEK_DATA } from './dashboard.constants'
 export class DashboardComponent implements OnInit {
 
   week: {}
+  monthPeriod = '< 15 de marzo - 21 de marzo >'
 
   constructor() { }
 

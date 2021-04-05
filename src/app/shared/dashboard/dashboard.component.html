@@ -1,3 +1,11 @@
-<div *ngFor="let day of week">
-  <app-week-day [date]="day.date" [events]="day.events"></app-week-day>
+<div class="dashboard-container">
+  <h2 class="dashboard-title">Dashboard</h2>
+  <hr>
+  <div class="calendar">
+    <p>Calendario</p>
+  </div>
+  <p class="period">{{monthPeriod}}</p>
+  <div *ngFor="let day of week">
+    <app-week-day [date]="day.date" [events]="day.events"></app-week-day>
+  </div>
 </div>

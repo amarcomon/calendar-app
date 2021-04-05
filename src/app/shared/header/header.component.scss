@@ -6,6 +6,8 @@ $user_profile_color: grey;
   flex-direction: row;
   justify-content: space-between;
   max-height: 40px;
+  margin: 5px 25px;
+  border-bottom: 1px solid $user_profile_color;
 }
 .search-container {
     display: flex;
